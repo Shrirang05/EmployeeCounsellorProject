@@ -53,20 +53,20 @@ public class TabAndWindowHandlingSteps
 	@And("Click on CloudFlare")
 	public void ClickOnCloudFlare() throws InterruptedException
 	{
-		TabWindow.Clickoncloudflare();
-		List<String>ids = new ArrayList<String>(driver.getWindowHandles());
-		driver.switchTo().window(ids.get(2));
-		driver.close();
-		Thread.sleep(3000);
-		
-		List<String>ids1 = new ArrayList<String>(driver.getWindowHandles());
-		driver.switchTo().window(ids.get(1));
-		driver.close();
-		Thread.sleep(3000);
+//		TabWindow.Clickoncloudflare();
+//		List<String>ids = new ArrayList<String>(driver.getWindowHandles());
+//		driver.switchTo().window(ids.get(2));
+//		driver.close();
+//		Thread.sleep(3000);
+//		
+//		List<String>ids1 = new ArrayList<String>(driver.getWindowHandles());
+//		driver.switchTo().window(ids.get(1));
+//		driver.close();
+//		Thread.sleep(3000);
 		
 		
 		List<String>ids0 = new ArrayList<String>(driver.getWindowHandles());
-		driver.switchTo().window(ids.get(0));
+		driver.switchTo().window(ids0.get(0));
 		Thread.sleep(3000);
 //		driver.switchTo().defaultContent();
 	}
@@ -85,8 +85,8 @@ public class TabAndWindowHandlingSteps
 	{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		String Actualtext = TabWindow.VerifyNewWindowOpen();
-		String Expectedurl = "Selenium automates browsers. That's it!";	
-		Assert.assertEquals(Actualtext, Expectedurl);
+		String Expectedtext = "Selenium automates browsers. That's it!";	
+		Assert.assertEquals(Actualtext, Expectedtext);
 	}
 	
 	@Then("Click on Download button")

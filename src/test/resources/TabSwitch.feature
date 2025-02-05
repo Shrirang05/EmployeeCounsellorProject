@@ -7,7 +7,7 @@ Scenario: Switching between tab and window
     And Click on popup window
     When Verify new window open 
     Then Click on Download button
-
+    
     
     #Given Open test automation practice page "<sheetname>" and <rownum>
     #Given Enter into searchbox
