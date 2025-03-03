@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 import Pages.MouseAction;
 import Pages.PageObjectManager;
 import Pages.TestContext;
-import io.cucumber.java.en.Given;
+import io.cucumber.java.en.*;
 
 public class MouseActionSteps {
 	
@@ -26,6 +26,9 @@ public class MouseActionSteps {
 		mouse.openpage(url);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		
+		
+		//My test
 	}
 	
 	
@@ -34,22 +37,22 @@ public class MouseActionSteps {
 		Thread.sleep(3000);
 	   mouse.MouseHover();
 	}
-	@Given("Double click on copy text button")
+	@And("Double click on copy text button")
 	public void double_click_on_copy_text_button() throws InterruptedException {
 		Thread.sleep(3000);
 	    mouse.CopyTextButton();
 	}
-	@Given("Perform drag and drop option")
+	@And("Perform drag and drop option")
 	public void perform_drag_and_drop_option() {
 	    mouse.DragElement();
 	}
 	
-	@Given("Perform slider action")
+	@And("Perform slider action")
 	public void SliderAction() {
 		mouse.SliderBar();
 	}
 	
-	@Given("Scrolling dropdown")
+	@And("Scrolling dropdown")
 	public void Scrollingdropdown() {
 		mouse.Scrollingdropdown();
 	}

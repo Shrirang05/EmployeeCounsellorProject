@@ -6,19 +6,19 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 
-@CucumberOptions(plugin = {"html:target/Report.html"},features = "src/test/resources/MouseAction.feature",glue = {"mouseAction"},tags = "@smoke")
+@CucumberOptions(plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},features = "src/test/resources/MouseAction.feature",glue = {"mouseAction"},tags = "@smoke")
 public class Runner extends AbstractTestNGCucumberTests {
 	
+	//com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:
+	//html:target/Report.html
 
 //Parallel testing
 	
 	@Override
 	@DataProvider(parallel = true)
 	public Object[][] scenarios() {
-		return super.scenarios();
-		
+		return super.scenarios();	
 	}
 	
 }   
-
 

@@ -1,17 +1,19 @@
 Feature: Mouse action
 
     #Background: setup for scenario
+    #Given Open test automation practice page "<sheetname>" and <rownum>
+   
     
      @smoke
     Scenario: Performing mouse action
-     Given Open test automation practice page "<sheetname>" and <rownum>
+    Given Open test automation practice page "<sheetname>" and <rownum>
     #And Click on mouse hover
-    Given Double click on copy text button
-    Given Perform drag and drop option
-    Given Perform slider action
-    Given Scrolling dropdown  
+    And Double click on copy text button
+    And Perform drag and drop option
+    And Perform slider action
+    And Scrolling dropdown  
     
-    Examples:
+     Examples:
     | sheetname | rownum |
     |   Sheet1  |   1    |
       
