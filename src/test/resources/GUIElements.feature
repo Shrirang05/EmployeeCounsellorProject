@@ -19,7 +19,7 @@ Scenario: To validate the GUI elements
     #And handle confirmation alert
     #And handle prompt alert
     
-@regression
+    
     And Click on date picker2
     And Select month and Year
     And Select Date
@@ -33,5 +33,4 @@ Scenario: To validate the GUI elements
     Examples:
     | sheetname | rownum |
     |   Sheet1  |   1    |
-    
     

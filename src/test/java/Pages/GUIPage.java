@@ -44,7 +44,7 @@ public class GUIPage {
 	@FindBy (how=How.ID,using="saturday")
 	WebElement DaySaturday;
 	
-	@FindBy (how=How.ID,using="country")
+//	@FindBy (how=How.ID,using="country")
 	WebElement Country;
 	
 	@FindBy (how=How.ID,using="colors")

@@ -12,16 +12,20 @@ import io.cucumber.java.en.*;
 
 public class AutomationGUISteps {
 
-	WebDriver driver;
+	WebDriver driver = Hooks.driver;
 	GUIPage gui;
-	PageObjectManager Page;
+	PageObjectManager Page =  Hooks.page;
 	 
+//	WebDriver driver ;
+//	GUIPage gui;
+//	PageObjectManager Page ;
+	
 	@Given("Open test automation practice page {string} and {int}")
 	public void OpenGUIPage(String sheetname, int rownum)
 	{
-		TestContext context = new TestContext();
-		driver = context.getChromeDriver();
-		Page = context.getPageObjectManager();
+//		TestContext context = new TestContext();
+//		driver = context.getChromeDriver();
+//		Page = context.getPageObjectManager();
 		gui = Page.getGUIPage();		
 		String url = utility.ExcelUtil.getcelldata(sheetname, rownum, 0);
 		gui.openpage(url);

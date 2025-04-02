@@ -25,10 +25,7 @@ public class MouseActionSteps {
 		String url = utility.ExcelUtil.getcelldata(sheetname, rownum, 0);
 		mouse.openpage(url);
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-		
-		
-		//My test
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));	
 	}
 	
 	
