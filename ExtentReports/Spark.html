@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Mar 21, 2025 11:02:22 pm</span></a>
+<a href="#"><span class="badge badge-primary">Apr 12, 2025 10:31:16 am</span></a>
 </li>
 </ul>
 </div>
@@ -84,7 +84,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@smoke</a>
+<a class="dropdown-item" href="#">@sanity</a>
 </ul>
 </li>
 </ul>
@@ -95,9 +95,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Automation practice</p>
+            <p class="name">Validate Login with Valid Cred</p>
             <p class="text-sm">
-              <span>23:02:22 pm</span> / <span>31:04:579</span>
+              <span>10:31:17 am</span> / <span>30:27:846</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -105,10 +105,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">Automation practice</h5>
-<span class='badge badge-success'>03.21.2025 23:02:22</span>
-<span class='badge badge-danger'>03.21.2025 23:03:27</span>
-<span class='badge badge-default'>31:04:579</span>
+<h5 class="test-status text-fail">Validate Login with Valid Cred</h5>
+<span class='badge badge-success'>04.12.2025 10:31:17</span>
+<span class='badge badge-danger'>04.12.2025 10:31:44</span>
+<span class='badge badge-default'>30:27:846</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 </div>
 <div class="m-t-10 m-l-5"></div>
@@ -118,158 +118,68 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>To validate the GUI elements</div>
-          <div class="status-avatar float-right mr-4">
-            <i class="fa fa-paperclip"></i>
-          </div>
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Login using valid cred</div>
       </div>
     </div>
-        <div class="">
-          <div class="card-body">
-              <div class="step pass-bg" title="Steps.AutomationGUISteps.OpenGUIPage(java.lang.String,int)">
-                <span>Given Open test automation practice page "Sheet1" and 1</span>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="3"><span class="badge log fail-bg mr-2">Fail</span>Login using valid cred</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given Launch browser</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="Steps.AutomationGUISteps.GUIPage(java.lang.String,int)">
-                <span>Given Verify correct page is open "Sheet1" and 1</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Navigate to url</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="Steps.AutomationGUISteps.EnterName(java.lang.String,int)">
-                <span>And Enter the name "Sheet1" and 1</span>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And Verify that home page is visible successfully "Website for automation practice"</span>
       <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="Steps.AutomationGUISteps.Email(java.lang.String,int)">
-                <span>And Enter the Email "Sheet1" and 1</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="Steps.AutomationGUISteps.Phoneno(java.lang.String,int)">
-                <span>And Enter the phone no "Sheet1" and 1</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="Steps.AutomationGUISteps.Address(java.lang.String,int)">
-                <span>And Enter the Address "Sheet1" and 1</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="Steps.AutomationGUISteps.gender()">
-                <span>And Select gender</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="Steps.AutomationGUISteps.selectsunday()">
-                <span>And Select multiple days</span>
-      <div>
-      </div>
-              </div>
-              <div class="step fail-bg" title="Steps.AutomationGUISteps.selectcountry()">
-                <span>And Select the country from dropdown</span>
-      <div>
-        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Country']"}
-  (Session info: chrome=134.0.6998.117)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.19.0', revision: '5f9cec8963'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [45d746637f9d1d79f350de9826d6ad3b, findElement {value=*[name='Country'], using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.117, chrome: {chromedriverVersion: 134.0.6998.90 (219ee74681fc..., userDataDir: C:\Users\SHRIRA~1.LAD\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59891}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59891/devtoo..., se:cdpVersion: 134.0.6998.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 45d746637f9d1d79f350de9826d6ad3b
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at org.openqa.selenium.By$PreW3CLocator.findElement(By.java:430)
-	at org.openqa.selenium.By$ByName.findElement(By.java:237)
-	at org.openqa.selenium.support.ByIdOrName.findElement(ByIdOrName.java:49)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:81)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy24.getTagName(Unknown Source)
-	at org.openqa.selenium.support.ui.Select.<init>(Select.java:43)
-	at Pages.GUIPage.Country(GUIPage.java:136)
-	at Steps.AutomationGUISteps.selectcountry(AutomationGUISteps.java:87)
-	at ✽.Select the country from dropdown(file:///D:/Shrirang.Ladda/git/EmployeeCounsellorProject/src/test/resources/GUIElements.feature:13)
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "Pages.PageObjectManager.getHome()" because "this.Page" is null
+	at AutomationSteps.LoginUserWithValidCredSteps.verifyhomepage(LoginUserWithValidCredSteps.java:25)
+	at ✽.Verify that home page is visible successfully "Website for automation practice"(file:///D:/Shrirang.Ladda/git/EmployeeCounsellorProject/src/test/resources/LoginUserwithValidCred.feature:7)
 </textarea>
       
       </div>
+                  </div>
               </div>
-              <div class="step skip-bg" title="Steps.AutomationGUISteps.SelectColours()">
-                <span>And Select colors</span>
-      <div>Step skipped
-      </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="7"><span class="badge log fail-bg mr-2">Fail</span>Login using valid cred</div>
+                </div>
               </div>
-              <div class="step skip-bg" title="Steps.AutomationGUISteps.sortedlist()">
-                <span>And Select Sorted list</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="Steps.AutomationGUISteps.datepicker(java.lang.String,int)">
-                <span>And Enter the datepicker1 "Sheet1" and 1</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="Steps.AutomationGUISteps.click_on_date_picker()">
-                <span>And Click on date picker2</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="Steps.AutomationGUISteps.select_month_and_year()">
-                <span>And Select month and Year</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="Steps.AutomationGUISteps.select_date()">
-                <span>And Select Date</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="Steps.AutomationGUISteps.UploadSingleFile()">
-                <span>And Choose single file</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="Steps.AutomationGUISteps.UploadMultipleFile()">
-                <span>And Choose multiple file</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="Steps.AutomationGUISteps.Clickonsinglefileupload()">
-                <span>And Upload single file</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="Steps.AutomationGUISteps.Clickonmultifileupload()">
-                <span>And Upload multiple file</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step pass-bg" >
-                <span>Steps.Hooks.teardown(io.cucumber.java.Scenario)</span>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given Launch browser</span>
       <div>
-          <div class="row mb-3"><div class="col-md-3">
-    <img data-featherlight='test-output/embedded1.png' src="test-output/embedded1.png">
-    
-    </div></div>
-</div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Navigate to url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And Verify that home page is visible successfully "Website for automation practice"</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "Pages.PageObjectManager.getHome()" because "this.Page" is null
+	at AutomationSteps.LoginUserWithValidCredSteps.verifyhomepage(LoginUserWithValidCredSteps.java:25)
+	at ✽.Verify that home page is visible successfully "Website for automation practice"(file:///D:/Shrirang.Ladda/git/EmployeeCounsellorProject/src/test/resources/LoginUserwithValidCred.feature:7)
+</textarea>
+      
+      </div>
+                  </div>
               </div>
-          </div>
+            </div>
         </div>
   </div>
 </div>
@@ -297,12 +207,12 @@ Session ID: 45d746637f9d1d79f350de9826d6ad3b
 <span class="meta">
 <span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">org.openqa.selenium.NoSuchElementException</p>
+<p class="name">java.lang.NullPointerException</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>org.openqa.selenium.NoSuchElementException</h4>
+<h4>java.lang.NullPointerException</h4>
 <span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -316,11 +226,21 @@ Session ID: 45d746637f9d1d79f350de9826d6ad3b
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>23:02:47 pm</td>
+<td>10:31:33 am</td>
 <td>
-<a href="#" class="linked" test-id='1' id='12'>And Select the country from dropdown</a>
+<a href="#" class="linked" test-id='1' id='6'>And Verify that home page is visible successfully "Website for automation practice"</a>
 <div class="">
-<span class="badge badge-default">Automation practice.To validate the GUI elements.And Select the country from dropdown</span>
+<span class="badge badge-default">Validate Login with Valid Cred.Login using valid cred.And Verify that home page is visible successfully "Website for automation practice"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:31:44 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='10'>And Verify that home page is visible successfully "Website for automation practice"</a>
+<div class="">
+<span class="badge badge-default">Validate Login with Valid Cred.Login using valid cred.And Verify that home page is visible successfully "Website for automation practice"</span>
 </div>
 </td>
 </tr>
@@ -347,15 +267,15 @@ Session ID: 45d746637f9d1d79f350de9826d6ad3b
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>1</span>
+<span class='badge log badge-danger'>3</span>
 </span>
-<p class="name">@smoke</p>
-<p class="duration text-sm">1 tests</p>
+<p class="name">@sanity</p>
+<p class="duration text-sm">3 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@smoke</h4>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
+<h4>@sanity</h4>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -368,11 +288,31 @@ Session ID: 45d746637f9d1d79f350de9826d6ad3b
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>23:02:22 pm</td>
+<td>10:31:17 am</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>To validate the GUI elements</a>
+<a href="#" class="linked" test-id='1' id='2'>Login using valid cred</a>
 <div class="">
-<span class="badge badge-default">Automation practice.To validate the GUI elements</span>
+<span class="badge badge-default">Validate Login with Valid Cred.Login using valid cred</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:31:17 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Login using valid cred</a>
+<div class="">
+<span class="badge badge-default">Validate Login with Valid Cred.Login using valid cred</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:31:33 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='7'>Login using valid cred</a>
+<div class="">
+<span class="badge badge-default">Validate Login with Valid Cred.Login using valid cred</span>
 </div>
 </td>
 </tr>
@@ -393,13 +333,13 @@ Session ID: 45d746637f9d1d79f350de9826d6ad3b
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Mar 21, 2025 11:02:22 pm</h3>
+<h3>Apr 12, 2025 10:31:16 am</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Mar 21, 2025 11:03:27 pm</h3>
+<h3>Apr 12, 2025 10:31:44 am</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -452,7 +392,7 @@ Session ID: 45d746637f9d1d79f350de9826d6ad3b
 <div class="card-footer">
 <div><small data-tooltip='0%'><b>0</b> scenarios passed</small></div>
 <div>
-<small data-tooltip='100%'><b>1</b> scenarios failed,
+<small data-tooltip='100%'><b>2</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -470,10 +410,10 @@ Session ID: 45d746637f9d1d79f350de9826d6ad3b
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='45%'><b>9</b> steps passed</small></div>
+<div><small data-tooltip='66%'><b>4</b> steps passed</small></div>
 <div>
-<small data-tooltip='5%'><b>1</b> steps failed,
-<b>10</b> skipped, <b data-tooltip='%'>0</b> others
+<small data-tooltip='33%'><b>2</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -489,7 +429,7 @@ Session ID: 45d746637f9d1d79f350de9826d6ad3b
 </div></div>
 <script>
 var timeline = {
-"Automation practice":64.579
+"Validate Login with Valid Cred":27.846
 };
 </script>
 <div class="row">
@@ -499,9 +439,9 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>@smoke</td>
+<td>@sanity</td>
 <td>0</td>
-<td>1</td>
+<td>3</td>
 <td>0</td>
 <td>0</td>
 <td>0%</td>
@@ -521,15 +461,15 @@ warningParent: 0,
 skipParent: 0,
 childCount: 5,
 passChild: 0,
-failChild: 1,
+failChild: 2,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 9,
-failGrandChild: 1,
+passGrandChild: 4,
+failGrandChild: 2,
 warningGrandChild: 0,
-skipGrandChild: 10,
+skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
 };

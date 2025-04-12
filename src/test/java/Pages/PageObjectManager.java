@@ -2,11 +2,16 @@ package Pages;
 
 import org.openqa.selenium.WebDriver;
 
+import AutomationPages.Home;
+import AutomationPages.Login;
+
 public class PageObjectManager {
    private WebDriver driver;
    private GUIPage gui;
    private WindowHandling TabWindow;
    private MouseAction mouse;
+   private Home HM;
+   private Login LG;
    
    public PageObjectManager (WebDriver driver)
    {
@@ -30,9 +35,15 @@ public class PageObjectManager {
 	   return mouse;
    }
    
+   public Home getHome() {
+	   HM = new Home(driver);
+	   return HM;
+   }
    
-   
-   
+   public Login getLogin() {
+	   LG = new Login(driver);
+	   return LG;
+   }
    
    
    

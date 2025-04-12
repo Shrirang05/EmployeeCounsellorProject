@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Mar 21 23:02:22 IST 2025</td>
+<td>Started on:</td><td>Sat Apr 12 10:31:15 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>65 seconds (65934 ms)</td>
+<tr><td>Total time:</td><td>29 seconds (29426 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,84 +75,28 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Pages.Runner.runScenario()'><b>runScenario</b><br>Test class: Pages.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To validate the GUI elements", "Optional[Automation practice]"</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;Country&apos;]&quot;}
-  (Session info: chrome=134.0.6998.117)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.19.0&apos;, revision: &apos;5f9cec8963&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [45d746637f9d1d79f350de9826d6ad3b, findElement {value=*[name=&apos;Country&apos;], using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.117, chrome: {chromedriverVersion: 134.0.6998.90 (219ee74681fc..., userDataDir: C:\Users\SHRIRA~1.LAD\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59891}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59891/devtoo..., se:cdpVersion: 134.0.6998.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 45d746637f9d1d79f350de9826d6ad3b
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at org.openqa.selenium.By$PreW3CLocator.findElement(By.java:430)
-	at org.openqa.selenium.By$ByName.findElement(By.java:237)
-	at org.openqa.selenium.support.ByIdOrName.findElement(ByIdOrName.java:49)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:81)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy24.getTagName(Unknown Source)
-	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:43)
-	at Pages.GUIPage.Country(GUIPage.java:136)
-	at Steps.AutomationGUISteps.selectcountry(AutomationGUISteps.java:87)
-	at ✽.Select the country from dropdown(file:///D:/Shrirang.Ladda/git/EmployeeCounsellorProject/src/test/resources/GUIElements.feature:13)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1180363686", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1180363686'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;Country&apos;]&quot;}
-  (Session info: chrome=134.0.6998.117)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.19.0&apos;, revision: &apos;5f9cec8963&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [45d746637f9d1d79f350de9826d6ad3b, findElement {value=*[name=&apos;Country&apos;], using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.117, chrome: {chromedriverVersion: 134.0.6998.90 (219ee74681fc..., userDataDir: C:\Users\SHRIRA~1.LAD\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59891}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59891/devtoo..., se:cdpVersion: 134.0.6998.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 45d746637f9d1d79f350de9826d6ad3b
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at org.openqa.selenium.By$PreW3CLocator.findElement(By.java:430)
-	at org.openqa.selenium.By$ByName.findElement(By.java:237)
-	at org.openqa.selenium.support.ByIdOrName.findElement(ByIdOrName.java:49)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:81)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy24.getTagName(Unknown Source)
-	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:43)
-	at Pages.GUIPage.Country(GUIPage.java:136)
-	at Steps.AutomationGUISteps.selectcountry(AutomationGUISteps.java:87)
-	at ✽.Select the country from dropdown(file:///D:/Shrirang.Ladda/git/EmployeeCounsellorProject/src/test/resources/GUIElements.feature:13)
+<td title='Pages.Runner.runScenario()'><b>runScenario</b><br>Test class: Pages.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login using valid cred", "Optional[Validate Login with Valid Cred]"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;Pages.PageObjectManager.getHome()&quot; because &quot;this.Page&quot; is null
+	at AutomationSteps.LoginUserWithValidCredSteps.verifyhomepage(LoginUserWithValidCredSteps.java:25)
+	at ✽.Verify that home page is visible successfully &quot;Website for automation practice&quot;(file:///D:/Shrirang.Ladda/git/EmployeeCounsellorProject/src/test/resources/LoginUserwithValidCred.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace67985650", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace67985650'><pre>java.lang.NullPointerException: Cannot invoke &quot;Pages.PageObjectManager.getHome()&quot; because &quot;this.Page&quot; is null
+	at AutomationSteps.LoginUserWithValidCredSteps.verifyhomepage(LoginUserWithValidCredSteps.java:25)
+	at ✽.Verify that home page is visible successfully &quot;Website for automation practice&quot;(file:///D:/Shrirang.Ladda/git/EmployeeCounsellorProject/src/test/resources/LoginUserwithValidCred.feature:7)
 </pre></div></td>
-<td>64</td>
+<td>16</td>
+<td>Pages.Runner@2b71e916</td></tr>
+<tr>
+<td title='Pages.Runner.runScenario()'><b>runScenario</b><br>Test class: Pages.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login using valid cred", "Optional[Validate Login with Valid Cred]"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;Pages.PageObjectManager.getHome()&quot; because &quot;this.Page&quot; is null
+	at AutomationSteps.LoginUserWithValidCredSteps.verifyhomepage(LoginUserWithValidCredSteps.java:25)
+	at ✽.Verify that home page is visible successfully &quot;Website for automation practice&quot;(file:///D:/Shrirang.Ladda/git/EmployeeCounsellorProject/src/test/resources/LoginUserwithValidCred.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace842588842", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace842588842'><pre>java.lang.NullPointerException: Cannot invoke &quot;Pages.PageObjectManager.getHome()&quot; because &quot;this.Page&quot; is null
+	at AutomationSteps.LoginUserWithValidCredSteps.verifyhomepage(LoginUserWithValidCredSteps.java:25)
+	at ✽.Verify that home page is visible successfully &quot;Website for automation practice&quot;(file:///D:/Shrirang.Ladda/git/EmployeeCounsellorProject/src/test/resources/LoginUserwithValidCred.feature:7)
+</pre></div></td>
+<td>11</td>
 <td>Pages.Runner@2b71e916</td></tr>
 </table><p>
 </body>

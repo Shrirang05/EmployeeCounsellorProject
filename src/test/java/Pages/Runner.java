@@ -6,7 +6,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 
-@CucumberOptions(plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},features = "src/test/resources/GUIElements.feature",glue = {"Steps"},tags = "@smoke")
+@CucumberOptions(plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},features = "src/test/resources/LoginUserwithValidCred.feature",glue = {"AutomationSteps"},tags = "@sanity")
 public class Runner extends AbstractTestNGCucumberTests {
 	
 	//com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:
@@ -14,11 +14,11 @@ public class Runner extends AbstractTestNGCucumberTests {
 
 //Parallel testing
 	
-	@Override
-	@DataProvider(parallel = true)
-	public Object[][] scenarios() {
-		return super.scenarios();	
-	}
+//	@Override
+//	@DataProvider(parallel = true)
+//	public Object[][] scenarios() {
+//		return super.scenarios();	
+//	}
 	
 }   
 
